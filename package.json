@@ -1,0 +1,29 @@
+{
+  "name": "card_game",
+  "version": "1.0.0",
+  "description": "Cards Against Humanity web game",
+  "main": "index.js",
+  "scripts": {
+    "start:server": "node server/index.js",
+    "dev:server": "nodemon server/index.js",
+    "dev:client": "cd client && npm start",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "install:all": "npm install && cd client && npm install"
+  },
+  "keywords": [
+    "card game",
+    "socket.io",
+    "react"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.1",
+    "nodemon": "^3.0.1"
+  }
+} 
