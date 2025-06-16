@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Anti-humanity
-card game
-=======
 # Cards Against Humanity Web Game
 
 A simplified web-based implementation of "Cards Against Humanity" using React, Node.js, Express, and Socket.IO.
